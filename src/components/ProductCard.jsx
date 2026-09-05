@@ -21,11 +21,7 @@ function ProductCard({ item }) {
               ⭐ {item.rating.rate} <span style={{ opacity: 0.7, fontSize: '10px' }}>({item.rating.count})</span>
             </span>
           )}
-          <img
-            src={item.image}
-            alt={item.title}
-            loading="lazy"
-          />
+          <img src={item.thumbnail} alt={item.title} />
         </div>
 
         <div className="card-content">

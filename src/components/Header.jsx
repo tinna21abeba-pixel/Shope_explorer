@@ -23,7 +23,7 @@ function Header() {
           <div className="brand-icon-wrapper">
             🛒
           </div>
-          <h1>Shop Explorer</h1>
+          <h1>Zepzo_delivery</h1>
         </div>
 
         <div className="header-actions">
